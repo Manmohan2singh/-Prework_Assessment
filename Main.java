@@ -16,15 +16,15 @@ public class Main {
     	   
     	   String original, reverse = ""; // Objects of String class  
     	      Scanner in = new Scanner(System.in);   
-    	      System.out.println("Enter a string/number to check if it is a palindrome");  
+    	      System.out.println("Enter a number to check if it is a palindrome");  
     	      original = in.nextLine();   
     	      int length = original.length();   
     	      for ( int i = length - 1; i >= 0; i-- )  
     	         reverse = reverse + original.charAt(i);  
     	      if (original.equals(reverse))  
-    	         System.out.println("Entered string/number is a palindrome.");  
+    	         System.out.println("Entered number is a palindrome.");  
     	      else  
-    	         System.out.println("Entered string/number isn't a palindrome.");   
+    	         System.out.println("Entered number isn't a palindrome.");   
     	      System.out.println();
 
       }
@@ -81,7 +81,8 @@ public class Main {
         	    }      
         	   }      
         	   if(flag==0)  { System.out.println(n+" is prime number"); }  
-        	  }//end of else  
+        	  }//end of else 
+        	  System.out.println();
         	}    
 
 
